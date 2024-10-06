@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&display=swap");
+@import url("//cdn.web-fonts.ge/fonts/bpg-glaho/css/bpg-glaho.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f2f3f6;
+  font-family: "BPG Glaho", sans-serif;
+}
+
+.sidebar {
+  box-shadow: 0px 4px 16px rgba(164, 174, 193, 0.1);
+  border-radius: 12px 12px 0px 0px;
+}
+
+input[type="checkbox"] {
+  accent-color: #fd4100;
+}
+
+#submit-button-car {
+  box-shadow: 0px 2px 16px 0px #272a3721;
+}
+
+#gg {
+  /* hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+}
+
+#gg::-webkit-scrollbar {
+  display: none;
+}
